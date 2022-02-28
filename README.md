@@ -9,5 +9,5 @@ JMeter requires [Javaruntime](https://community.chocolatey.org/packages/javarunt
 Installing this package with chocolatey:
 
 ```
-choco install jmeter5 -y
+choco install jmeter -y
 ```
