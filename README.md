@@ -1,4 +1,4 @@
-# JMeter 5.5 package for Chocolatey
+# JMeter 5.6.3 package for Chocolatey
 
 Based on the package [JMeter](https://community.chocolatey.org/packages/jmeter) on the repository https://github.com/geotrader/chocolateyPackages
 

@@ -4,8 +4,8 @@ $toolsPath   = Split-Path -parent $MyInvocation.MyCommand.Definition
 
 $packageArgs = @{
   packageName    = 'jmeter'
-  url            = 'https://archive.apache.org/dist/jmeter/binaries/apache-jmeter-5.5.zip'
-  checksum       = 'b24cdaa57234153df34a40bdc4501aa16f3286ca3e172eb889a5daa0ded86ab51388af1ea56e756df566a6f74f39f80eceb04e5d559668aeac9ec9759d6445ac'
+  url            = 'https://archive.apache.org/dist/jmeter/binaries/apache-jmeter-5.6.3.zip'
+  checksum       = '387fadca903ee0aa30e3f2115fdfedb3898b102e6b9fe7cc3942703094bd2e65b235df2b0c6d0d3248e74c9a7950a36e42625fd74425368342c12e40b0163076'
   checksumType   = 'sha512'
   unzipLocation  = $toolsPath
 }
@@ -17,7 +17,7 @@ try {
   cp $toolsPath\jmeterw.cmd $env:ChocolateyInstall\bin
 #   Install-ChocolateyShortcut `
 #     -ShortcutFilePath "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\JMeter.lnk" `
-#     -TargetPath "C:\ProgramData\chocolatey\lib\jmeter\tools\apache-jmeter-5.5\bin\ApacheJMeter.jar" `
+#     -TargetPath "C:\ProgramData\chocolatey\lib\jmeter\tools\apache-jmeter-5.6.3\bin\ApacheJMeter.jar" `
 #     -IconLocation "C:\test.ico" `
 } catch {
   throw $_.Exception.Message

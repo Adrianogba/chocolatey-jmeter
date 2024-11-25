@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>jmeter</id>
-    <version>5.5</version>
+    <version>5.6.3</version>
     <title>Apache JMeter</title>
     <authors>Apache Software Foundation</authors>
     <owners>geo_trader</owners>
@@ -10,7 +10,7 @@
     <iconUrl>https://rawcdn.githack.com/apache/jmeter/81ba16c2213c6af78a388a7c94a11474d20348a6/xdocs/images/jmeter_square.svg</iconUrl>
     <projectSourceUrl>https://github.com/apache/jmeter</projectSourceUrl>
     <docsUrl>https://jmeter.apache.org/usermanual/</docsUrl>
-    <copyright>Copyright © 1999 – 2021 , Apache Software Foundation</copyright>
+    <copyright>Copyright © 1999 – 2024 , Apache Software Foundation</copyright>
     <licenseUrl>https://www.apache.org/licenses/</licenseUrl>
     <tags>jmeter java web load test</tags>
     <releaseNotes>https://jmeter.apache.org/changes.html</releaseNotes>
